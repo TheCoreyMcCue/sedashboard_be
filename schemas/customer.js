@@ -29,18 +29,25 @@ export default {
       type: 'string',
     },
     {
+      name: 'api',
+      title: 'API',
+      type: 'string',
+    },
+    {
       name: 'technicalQual',
       title: 'Technical Qualification',
       type: 'boolean',
     },
-    // {
-    //   name: 'image',
-    //   title: 'Image',
-    //   type: 'image',
-    //   options: {
-    //     hotspot: true,
-    //   },
-    // },
+    {
+      name: 'queries',
+      title: 'Queries (p/m)',
+      type: 'number',
+    },
+    {
+      name: 'notes',
+      title: 'Notes',
+      type: 'text',
+    },
     {
       name: 'userId',
       title: 'UserId',
@@ -51,12 +58,6 @@ export default {
       title: 'PostedBy',
       type: 'postedBy',
     },
-    // {
-    //   name: 'save',
-    //   title: 'Save',
-    //   type: 'array',
-    //   of: [{type: 'save'}],
-    // },
     {
       name: 'comments',
       title: 'Comments',

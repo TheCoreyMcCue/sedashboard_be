@@ -9,13 +9,23 @@ export default {
       type: 'string',
     },
     {
-      name: 'image',
-      title: 'Image',
+      name: 'guru',
+      title: 'Guru Cards',
+      type: 'string',
+    },
+    {
+      name: 'batch',
+      title: 'Batch Instructions',
       type: 'string',
     },
     {
       name: 'description',
       title: 'Description',
+      type: 'text',
+    },
+    {
+      name: 'minIn',
+      title: 'Minimum Inputs',
       type: 'string',
     },
     {
